@@ -16,7 +16,7 @@ export default function Resizable() {
         </div>
       </Panel>
 
-      <PanelResizeHandle className='flex w-px items-center justify-center border border-white'>
+      <PanelResizeHandle className='flex w-px items-center justify-center bg-white'>
         <div className='z-10 flex h-6 w-4 items-center justify-center rounded-sm border bg-zinc-200'>
           <DragHandleDots2Icon className='h-4 w-4' />
         </div>
